@@ -1,4 +1,4 @@
-CREATE TABLE covid_data (
+CREATE TABLE  IF NOT EXISTS covid_data (
     id INT AUTO_INCREMENT PRIMARY KEY,
     country VARCHAR(50),
     total_cases VARCHAR(100),
